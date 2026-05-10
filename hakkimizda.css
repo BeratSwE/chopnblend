@@ -1,4 +1,3 @@
-/* Hakkımızda Sayfası Stilleri */
 * {
     margin: 0;
     padding: 0;
@@ -56,7 +55,6 @@ body {
     font-weight: 600;
 }
 
-/* Hero Bölümü */
 .about-hero {
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
                 url('https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=1920');
@@ -82,7 +80,6 @@ body {
     padding: 0 20px;
 }
 
-/* Hikaye Bölümü (Flexbox) */
 .story-section {
     display: flex;
     gap: 50px;
@@ -110,7 +107,6 @@ body {
     box-shadow: 20px 20px 0 #27ae60;
 }
 
-/* Süreç Bölümü (Grid) */
 .center-title {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -145,7 +141,6 @@ body {
     margin-bottom: 10px;
 }
 
-/* İletişim Bölümü */
 .location-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -168,7 +163,6 @@ body {
     margin-bottom: 10px;
 }
 
-/* Footer */
 .about-footer {
     text-align: center;
     padding: 60px 0;
@@ -178,11 +172,4 @@ body {
     color: #777;
     text-decoration: none;
     font-weight: bold;
-}
-
-/* Mobil Uyumluluk */
-@media (max-width: 768px) {
-    .story-section { flex-direction: column; }
-    .location-grid { grid-template-columns: 1fr; }
-    .about-hero h1 { font-size: 2.5rem; }
 }

@@ -1,4 +1,3 @@
-/* Genel Ayarlar */
 * {
     margin: 0;
     padding: 0;
@@ -56,7 +55,6 @@ body {
     font-size: 0.9rem;
 }
 
-/* İçerik Konteynırı */
 .feedback-wrapper {
     max-width: 800px;
     margin: 40px auto;
@@ -106,7 +104,6 @@ body {
     font-weight: 600;
 }
 
-/* Form Alanı */
 .form-container {
     background: #fff;
     padding: 40px;
