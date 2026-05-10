@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Görüşleriniz | ChopNBlend</title>
+    <link rel="stylesheet" href="gorusler.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <span class="green-text">CHOP</span><span class="white-n">N</span><span class="green-text">BLEND</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="ana_sayfa.html">Anasayfa</a></li>
+            <li><a href="menu.html">Menü</a></li>
+            <li><a href="gorusler.html">Görüşleriniz</a></li>
+            <li><a href="hakkimizda.html">Hakkımızda</a></li>
+        </ul>
+    </nav>
+
+    <div class="feedback-wrapper">
+        <header class="page-header">
+            <h1>Sizden Gelenler</h1>
+            <p>Deneyimlerinizi paylaşarak ailemizin bir parçası olun.</p>
+        </header>
+
+        <!-- Mevcut Yorumlar Alanı -->
+        <section class="existing-reviews">
+            <div class="review-card">
+                <div class="review-header">
+                    <strong>Ahmet Yılmaz</strong>
+                    <span class="stars">5 Yıldız</span>
+                </div>
+                <div class="ate-info">Ne Yedi: <span>Garden Bowl & Pesto Penne</span></div>
+                <p>"Tazelik kelimesinin tam karşılığı. Soslar mükemmel harmanlanmış!"</p>
+            </div>
+
+            <div class="review-card">
+                <div class="review-header">
+                    <strong>Selin Kaya</strong>
+                    <span class="stars">4 Yıldız</span>
+                </div>
+                <div class="ate-info">Ne Yedi: <span>Spicy Chicken Burrito</span></div>
+                <p>"Porsiyonlar oldukça doyurucu, paketleme çok özenliydi."</p>
+            </div>
+        </section>
+
+        <!-- Yeni Yorum Yapma Formu -->
+        <section class="form-container">
+            <h2>Görüş Bildir</h2>
+            <form id="feedback-form">
+                <div class="input-group">
+                    <input type="text" placeholder="Adınız Soyadınız" required>
+                </div>
+
+                <div class="input-group">
+                    <select required>
+                        <option value="" disabled selected>Ne Yediniz?</option>
+                        <optgroup label="Salatalar">
+                            <option value="garden-bowl">Garden Bowl</option>
+                            <option value="protein-mix">Protein Mix</option>
+                            <option value="chop-classic">Chop Classic Bowl</option>
+                        </optgroup>
+                        <optgroup label="Makarnalar">
+                            <option value="pesto-penne">Pesto Penne</option>
+                            <option value="alfredo">Alfredo Fettucine</option>
+                            <option value="pesto-blend">Pesto Blend Pasta</option>
+                        </optgroup>
+                        <optgroup label="Burritolar">
+                            <option value="chicken-burrito">Chicken Burrito</option>
+                            <option value="beef-burrito">Beef Burrito</option>
+                            <option value="spicy-chicken">Spicy Chicken Burrito</option>
+                        </optgroup>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label>Puanınız:</label>
+                    <select required>
+                        <option value="5">5 Yıldız - Mükemmel</option>
+                        <option value="4">4 Yıldız - Çok İyi</option>
+                        <option value="3">3 Yıldız - Orta</option>
+                        <option value="2">2 Yıldız - Geliştirilmeli</option>
+                        <option value="1">1 Yıldız - Memnun Kalmadım</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <textarea placeholder="Deneyiminizden bahsedin..." rows="4" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Görüşümü Gönder</button>
+            </form>
+        </section>
+        
+        <div class="back-home">
+            <a href="ana_sayfa.HTML">Anasayfaya Dön</a>
+        </div>
+    </div>
+
+</body>
+</html>
