@@ -10,7 +10,7 @@ body {
     background: #ffffff;
 }
 
-/* Navigasyon Çubuğu */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -62,7 +62,7 @@ body {
     border-radius: 50px;
 }
 
-/* Paralaks Hero Bölümü */
+
 .hero-parallax {
     height: 90vh;
     background-image: url('https://images.unsplash.com/photo-1543339308-43e59d6b73a6?q=80&w=1920');
@@ -92,7 +92,7 @@ body {
     color: #27ae60;
 }
 
-/* Kategori Bölümü */
+
 .category-section {
     padding: 80px 8%;
 }
